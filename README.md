@@ -1,5 +1,15 @@
 # Retrospective 🪂
 
+A retrospective is an opportunity for your team to reflect on the past to improve the future.
+
+During the Sprint Retrospective, the team discusses:
+
+- What went well in the Sprint
+- What could be improved
+- Identify action items to improve in the next Sprint
+
+There are many retrospective apps out there but many are hard to use. I aim to create a simple and straightforward prototype that provides a seamless experience for everybody!
+
 # Get your app running! 🛵
 
 Use the following commands to start the development server:
@@ -10,7 +20,7 @@ npm install
 npm run dev
 ```
 
-# Remake 👩‍💻👨
+# Remake 👩‍💻
 
 Wireframes are for structure. Mockups are for visuals. Prototypes are for usability.
 
