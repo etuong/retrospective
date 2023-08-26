@@ -6,7 +6,8 @@
  * */
 
 /* hide remake edit buttons from users that aren't the page author */
-[data-user-is-not-page-author] [data-i-new], [data-i-editable-off] [data-i-new] {
+[data-user-is-not-page-author] [data-i-new],
+[data-i-editable-off] [data-i-new] {
   display: none;
 }
 
@@ -22,7 +23,8 @@
 
 /* if an editable element has no inner content,  */
 /* it will still maintain a width and height */
-[data-i-editable]:empty, [data-i-editable-without-remove]:empty {
+[data-i-editable]:empty,
+[data-i-editable-without-remove]:empty {
   min-height: 24px;
   min-width: 48px;
   max-width: 160px;

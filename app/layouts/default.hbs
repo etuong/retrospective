@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kanban App</title>
-  <link rel="shortcut icon" type="image/png" href="/assets/favicon.ico">
+  <title>Retrospective</title>
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="/assets/css/_remake.css">
   <link rel="stylesheet" type="text/css" href="/assets/css/base.css">
@@ -20,7 +20,7 @@
     <div class="nav">
       <a class="logo" href="{{#if currentUser}}/{{currentUser.details.username}}{{else}}/{{/if}}">
         <img class="logo__image" src="/assets/images/logo.svg">
-        <span class="logo__text">TaskFellow <span class="logo__version">v1.0</span></span>
+        <span class="logo__text">Retrospective <span class="logo__version">v1.0</span></span>
       </a>
       {{#if currentUser}}
         <div class="nav__user">

@@ -21,4 +21,3 @@ To see a user's current data, look in the `database/user-app-data` directory.
 Data in this file will be accessible from every layout, page, and partial template for every user.
 
 Use it to specify global, unchanging data, like your app's name, navigation links, or any other static data that's globally accessible for all users.
-
