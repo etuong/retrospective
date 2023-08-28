@@ -5,8 +5,8 @@
   <h2 class="front-page__heading">Welcome to Retrospective</h2>
   <p class="front-page__body">Reflect on the past, improve the future</p>
   {{#if currentUser}}
-    <a class="button button--large" href="/{{currentUser.details.username}}">Go to your board</a>
+  <a class="button button--large" href="/{{currentUser.details.username}}">Go to your board</a>
   {{else}}
-    <a class="button button--large" href="/user/signup">Sign up!</a>
+  <a class="button button--large" href="/user/signup">Sign up!</a>
   {{/if}}
 </div>

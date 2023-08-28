@@ -2,151 +2,89 @@
   "boardHeading": "Hometown Dance Recital",
   "stacks": [
     {
-      "stackHeading": "Logistics",
+      "stackHeading": "What Went Well?",
       "cards": [
         {
-          "cardText": "Confirm the venue",
+          "cardText": "Completed all stories and increased sprint velocity. Well done, team!",
           "id": "02hHkAC7NtP0CT"
         },
         {
-          "cardText": "Determine the number of chairs needed",
+          "cardText": "New team setup, work was divided evenly",
           "id": "rHJYGjIULc2w6D"
         },
         {
-          "cardText": "Distribute the tickets",
+          "cardText": "New Slack channel was informative and helpful",
           "id": "2gGko30wjWw9tn"
         },
         {
-          "cardText": "Finalize Vendors",
+          "cardText": "Communication was effective and stories were estimated better",
           "id": "wsHOZM2jAFyeTe"
-        },
-        {
-          "cardText": "Write up the schedule",
-          "id": "HsgjCK5BDcubMw"
         }
       ],
       "id": "LdDRCOw7ScfbGd"
     },
     {
-      "stackHeading": "Volunteers",
+      "stackHeading": "What Can Improve?",
       "cards": [
         {
-          "cardText": "Reach out to potential sponsors",
+          "cardText": "Working hours can be more flexible",
           "id": "VW5qfSvPFBR6ag"
         },
         {
-          "cardText": "Confirm sponsors",
+          "cardText": "Longer stories can be broken down further",
           "id": "65IKSzDG00b0LI"
         },
         {
-          "cardText": "Recruit people to build the set",
-          "id": "yf9ZFOlrbmDjzw"
-        },
-        {
-          "cardText": "Recruit ushers",
-          "id": "P5BmklbQ7ydAsq"
-        },
-        {
-          "cardText": "Recruit ticket takers",
-          "id": "XDUxjzftiydnm1"
-        },
-        {
-          "cardText": "Recruit parking attendants",
-          "id": "Og4mxqKNA3H1fc"
-        },
-        {
-          "cardText": "Recruit concession and merchandise sales",
-          "id": "5mxMFgM02MW1ro"
-        },
-        {
-          "cardText": "Send volunteer packets out",
-          "id": "VRS7c4C1B2s7Ju"
-        },
-        {
-          "cardText": "Assemble “Thank You” swag bags for volunteers",
+          "cardText": "Be more punctual in team meetings",
           "id": "IA5Kufw18EsXZV"
         }
       ],
       "id": "E6jdLSvscRBbqy"
     },
     {
-      "stackHeading": "Performance",
+      "stackHeading": "What Didn't Go Well?",
       "cards": [
         {
-          "cardText": "Announce the soloists for the finale",
+          "cardText": "External parties are causing a bottleneck",
           "id": "lG3uMVyUW9JHl8"
         },
         {
-          "cardText": "Schedule additional rehearsals for the soloists",
+          "cardText": "Deadlines are approaching, feeling the stress",
           "id": "xsUSaQfjQM2JIT"
         },
         {
-          "cardText": "Design Costumes",
+          "cardText": "Need more help with onboarding junior engineers",
           "id": "PZqQb0GgHYOJcg"
         },
         {
-          "cardText": "Order costumes 4 weeks before recital",
+          "cardText": "Technical debt has increased since the last sprint",
           "id": "1HjsJRlASswtjh"
         },
         {
-          "cardText": "Send ill fitting costumes for alterations",
-          "id": "wocXj5eHaHKn0u"
-        },
-        {
-          "cardText": "Buy the props",
-          "id": "m0ayDdhB3tQ8k5"
+          "cardText": "Meetings go off tangent. Too many small random talks.",
+          "id": "2H1s4R6A8s9t0h"
         }
       ],
       "id": "co6temTwwUDhQe"
     },
     {
-      "stackHeading": "Photography and Video",
+      "stackHeading": "Action Items",
       "cards": [
         {
-          "cardText": "Hire a photographer for studio photos",
-          "id": "KC83X8ZR5teDfm"
-        },
-        {
-          "cardText": "Hire a photographer for the performance",
-          "id": "IquUCHO6BIj5Bh"
-        },
-        {
-          "cardText": "Acquire video camera",
-          "id": "LlTicHwH90V4mw"
-        },
-        {
-          "cardText": "Acquire a tripod",
-          "id": "b61MM9V0534vqO"
-        },
-        {
-          "cardText": "Hire someone to record the performance",
-          "id": "pniTCvMyyOwTvm"
-        }
-      ],
-      "id": "TEP701wqAd6tSf"
-    },
-    {
-      "stackHeading": "Promotion",
-      "cards": [
-        {
-          "cardText": "Print flyers",
+          "cardText": "Organize technical roadmap",
           "id": "Q3ZW55nXGfehTQ"
         },
         {
-          "cardText": "Promote the event on Facebook and Instagram",
+          "cardText": "Hold tech and learn sessions to prevent silo",
           "id": "aeXgielXZiZxiS"
         },
         {
-          "cardText": "Prepare the programs",
+          "cardText": "Ethan to present authentication and authorization concepts on SAML and OAuth",
           "id": "6jVApnrESBXE0N"
         },
         {
-          "cardText": "Cross promote other dance studios",
+          "cardText": "Redefine features for release notes",
           "id": "r1LuSgI2L6PXH7"
-        },
-        {
-          "cardText": "Speak to local radio stations",
-          "id": "uqHY3RlhXDsQ7s"
         }
       ],
       "id": "0Ei9ydWoLvpFXQ"
