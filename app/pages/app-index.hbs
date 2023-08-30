@@ -1,9 +1,9 @@
 <div class="board-container">
-  <div class="board" array key="stacks" sortable="stacks">
+  <div class="board" array key="stacks">
     {{#for stack in stacks}}
-    <div class="stack" object key:stack-heading="@search" default:stack-heading="A Project">
+    <div class="stack" object key:stack-heading="@search" style='background-color: {{stack.color}}' key:color={{stack.color}}>
       <div class="stack__top">
-        <p class="stack__text" target:stack-heading="@innerText" edit:stack-heading>{{default stack.stackHeading "New
+        <p class="stack__text" target:stack-heading="@innerText">{{default stack.stackHeading "New
           stack item"}}</p>
       </div>
       
@@ -14,7 +14,7 @@
         </button>
       </div>
 
-      <div class="stack__list" key="cards" array sortable="cards">
+      <div class="stack__list" key="cards" array sortable="cards"  object key:color="@search">
         {{#for card in stack.cards}}
         <div class="card" object key:card-text="@search" edit:card-text>
           <p class="card__text" target:card-text="@innerText">{{default card.cardText "New card item"}}</p>

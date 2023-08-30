@@ -23,8 +23,6 @@
 }
 
 .stack__top {
-  flex-shrink: 0;
-  display: flex;
   padding-top: 0.5rem;
   margin-bottom: 0.65rem;
   color: #536988;
@@ -36,7 +34,7 @@
 }
 
 .stack__list {
-  background-color: #f2f6fa;
+  /* background-color: #f2f6fa; */
   border-radius: 5px 5px 0 0;
   flex-shrink: 1;
   min-height: 3rem;
@@ -47,7 +45,7 @@
 
 .stack__add-card-container {
   padding: 0.5rem;
-  background-color: #f2f6fa;
+  /* background-color: #f2f6fa; */
   border-radius: 0 0 5px 5px;
 }
 

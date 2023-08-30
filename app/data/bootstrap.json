@@ -3,6 +3,7 @@
   "stacks": [
     {
       "stackHeading": "What Went Well?",
+      "color": "#cfeee6",
       "cards": [
         {
           "cardText": "Completed all stories and increased sprint velocity. Well done, team!",
@@ -25,6 +26,7 @@
     },
     {
       "stackHeading": "What Can Improve?",
+      "color": "#b3e6f7",
       "cards": [
         {
           "cardText": "Working hours can be more flexible",
@@ -43,6 +45,7 @@
     },
     {
       "stackHeading": "What Didn't Go Well?",
+      "color": "#f8e7af",
       "cards": [
         {
           "cardText": "External parties are causing a bottleneck",
@@ -69,6 +72,7 @@
     },
     {
       "stackHeading": "Action Items",
+      "color": "#e0ddfa",
       "cards": [
         {
           "cardText": "Organize technical roadmap",
