@@ -31,6 +31,7 @@
 .stack__text {
   font-size: 18px;
   font-weight: 500;
+  text-align: center;
 }
 
 .stack__list {
@@ -52,22 +53,18 @@
 .stack__add-card {
   align-items: center;
   border-radius: 5px;
-  border: 2px dashed #dce0e4;
+  border: 2px dashed white;
   color: #536988;
   display: flex;
   flex-shrink: 0;
-  height: 41px;
+  height: 40px;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
   width: 100%;
 }
 
 .stack__add-card:hover {
   cursor: pointer;
-  background-color: #e4ebf3;
-  border-color: #c5cfdb;
+  background-color: white;
 }
 
 .stack__add-card-icon {
@@ -87,7 +84,8 @@
 
 .card:hover {
   cursor: pointer;
-  background-color: #f2f6fa;
+  opacity: 0.7;
+  color: black;
 }
 
 .card:nth-child(1) {
