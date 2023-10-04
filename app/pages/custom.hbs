@@ -1,0 +1,9 @@
+<div class="board-container">
+  <div class="board" array key="stacks">
+    <ul>
+      {{#for stack in stacks}}
+      <li object key:name="@innerText">{{stack.stackHeading}}</li>
+      {{/for}}
+    </ul>
+  </div>
+</div>
