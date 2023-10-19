@@ -15,6 +15,7 @@
   <link rel="stylesheet" type="text/css" href="/assets/css/text-field.css">
   <link rel="stylesheet" type="text/css" href="/assets/css/front-page.css">
   <link rel="stylesheet" type="text/css" href="/assets/css/kanban.css">
+  {{!-- <link rel="stylesheet" type="text/css" href="/assets/css/_tailwind.css"> --}}
 </head>
 
 <body>
@@ -28,6 +29,10 @@
       <div class="nav__user">
         <div>{{currentUser.details.username}}</div>
         <a class="nav__button" href="/user/logout">Logout</a>
+        <div object key:picture="@search" class="avatar">
+          <input id="pictureUpload" update:picture type="file" class="hidden">
+          <img id="pictureButton" target:picture="@attr:src" src="{{#if currentUser.appData.picture}}{{currentUser.appData.picture}}{{else}}/assets/images/DefaultPicture.jpg{{/if}}">
+        </div>
       </div>
       {{else}}
       <div class="nav__user">

@@ -22,3 +22,18 @@
 .accounts__forgot-link:hover {
   text-decoration: none;
 }
+
+.avatar {
+  margin-left: 10px;
+}
+
+.avatar .hidden {
+  display: none;
+}
+
+.avatar img {
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}

@@ -4,7 +4,8 @@
   "description": "An app for teams to reflect on the past and improve the future",
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon _remake/server.js --watch ./",
-    "remake-build": "npx esbuild _remake/client-side/index.js --bundle --minify --sourcemap=external --outdir=_remake/dist/remake/js --target=edge18 --format=iife --global-name=Remake && mv _remake/dist/remake/js/index.js _remake/dist/remake/js/remake.min.js && mv _remake/dist/remake/js/index.js.map _remake/dist/remake/js/remake.min.js.map && echo '//# sourceMappingURL=remake.min.js.map' >> _remake/dist/remake/js/remake.min.js"
+    "remake-build": "npx esbuild _remake/client-side/index.js --bundle --minify --sourcemap=external --outdir=_remake/dist/remake/js --target=edge18 --format=iife --global-name=Remake && mv _remake/dist/remake/js/index.js _remake/dist/remake/js/remake.min.js && mv _remake/dist/remake/js/index.js.map _remake/dist/remake/js/remake.min.js.map && echo '//# sourceMappingURL=remake.min.js.map' >> _remake/dist/remake/js/remake.min.js",
+    "tailwind-build": "npx tailwindcss -i ./app/assets/css/tailwind.css -o ./app/assets/css/_tailwind.css --minify"
   },
   "nodemonConfig": {
     "ignore": [
@@ -74,6 +75,8 @@
     "nodemon": "^2.0.13",
     "prettier": "2.2.1",
     "pretty-quick": "^3.1.0",
-    "shelljs": "^0.8.3"
+    "daisyui": "^3.8.2",
+    "shelljs": "^0.8.3",
+    "tailwindcss": "^3.3.3"
   }
 }

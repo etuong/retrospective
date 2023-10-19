@@ -21,7 +21,7 @@
 .nav {
   flex-shrink: 0;
   display: flex;
-  height: 55px;
+  height: 60px;
   background-color: #0c2635;
   color: #fff;
 }
